@@ -54,7 +54,7 @@ function squareNegatives(arr){
     let newarr = [];
     for (num of arr){
         if (num < 0){
-            newarr.push(num ** 2)
+            newarr.push(Math.pow(num,2))
         }
     }
     console.log(newarr)
